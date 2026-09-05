@@ -1,0 +1,37 @@
+# Frontend dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.tsbuildinfo
+.eslintcache
+*.timestamp-*-*.mjs
+
+# .NET build output and test results
+[Bb]in/
+[Oo]bj/
+[Tt]est[Rr]esults/
+
+# Local IDE state
+.vs/
+.idea/
+*.csproj.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vscode/*
+!.vscode/extensions.json
+
+# Local environment settings (keep example templates)
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+
+# Logs and operating system files
+logs/
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
