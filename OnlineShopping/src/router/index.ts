@@ -25,7 +25,7 @@ import SellerShopSettingsView from '../views/SellerShopSettingsView.vue'
 import SellerReviewsView from '../views/SellerReviewsView.vue'
 import SellerVoucherFormView from '../views/SellerVoucherFormView.vue'
 import SellerVouchersView from '../views/SellerVouchersView.vue'
-
+import SellerLoginView from '../views/SellerLoginView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -122,11 +122,7 @@ const router = createRouter({
       name: 'order-success',
       component: OrderSuccessView,
     },
-    {
-      path: '/:pathMatch(.*)*',
-      name: 'not-found',
-      component: NotFoundView,
-    },
+
     {
       path: '/seller',
       name: 'seller-dashboard',
@@ -171,6 +167,17 @@ const router = createRouter({
       path: '/seller/vouchers/new',
       name: 'seller-voucher-new',
       component: SellerVoucherFormView,
+    },
+    {
+      path: '/seller/login',
+      name: 'seller-login',
+      component: SellerLoginView,
+    },
+
+    {
+      path: '/:pathMatch(.*)*',
+      name: 'not-found',
+      component: NotFoundView,
     },
   ],
 })
