@@ -20,6 +20,7 @@ import { RouterLink } from 'vue-router'
       <RouterLink to="/favorites">Sản phẩm yêu thích</RouterLink>
       <RouterLink to="/notifications">Thông báo</RouterLink>
       <RouterLink to="/addresses">Địa chỉ của tôi</RouterLink>
+      <RouterLink to="/change-password">Đổi mật khẩu</RouterLink>
       
     </nav>
   </aside>

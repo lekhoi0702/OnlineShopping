@@ -19,6 +19,7 @@ import { RouterLink } from 'vue-router'
           <RouterLink to="/seller/orders">Đơn hàng</RouterLink>
           <RouterLink to="/seller/settings">Thiết lập cửa hàng</RouterLink>
           <RouterLink to="/seller/vouchers">Mã giảm giá</RouterLink>
+          <RouterLink to="/seller/reviews">Đánh giá</RouterLink>
         </nav>
 
         <RouterLink class="storefront-link" to="/shop-detail">
